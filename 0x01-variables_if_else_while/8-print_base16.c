@@ -1,4 +1,3 @@
-TASK 8
 #include <stdio.h>
 
 /**
