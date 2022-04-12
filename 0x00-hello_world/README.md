@@ -1,1 +1,2 @@
-my first c programing language reame
+my first c programing language readme
+
