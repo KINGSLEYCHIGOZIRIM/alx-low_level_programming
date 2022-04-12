@@ -1,20 +1,24 @@
 #include "main.h"
 
 /**
-*main - function prints text as output
-*
-*Return:return 0
-*/
+ * main - print out main character by char.
+ * Description: uses the main header file
+ * that contains the function _putchar
+ * Return: 0.
+ */
+
 int main(void)
 {
-	char school[10] = "_putchar";
-
+	char str[] = "_putchar";
 	int i;
 
-	for (i = 0; i < 8; i++)
+	i = 0;
+	while (str[i])
 	{
-		_putchar(school[i]);
+		_putchar(str[i]);
+		++i;
 	}
-	_putchar(10);
+	_putchar('\n');
+
 	return (0);
 }
